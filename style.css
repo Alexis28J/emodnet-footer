@@ -1,33 +1,35 @@
-*{
+* {
     /* border: solid red 1px; */
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     margin: 0px;
     padding: 0px;
     color: white;
 }
 
-.main-div{
+.main-div {
     height: 800px;
     background-color: #004494;
     display: flex;
     justify-content: center;
 }
 
-.first-child{
+.first-child {
     width: 900px;
     display: flex;
     flex-direction: column;
+    flex-grow: 0.5;
     gap: 10px;
     margin: 10px;
 }
 
-.second-child{
+.second-child {
     flex-grow: 2.5;
     display: flex;
-   
+
 }
 
 .second-box {
@@ -36,8 +38,8 @@ html, body{
 }
 
 /* (linee divisorie) */
-.divider{
-    height: 1px;
+.divider {
+    height: 2px;
     background-color: white;
 }
 
@@ -48,32 +50,36 @@ a {
     text-decoration: none;
 }
 
-.box{
-margin: 0 10px;
+.box {
+    margin: 0 10px;
 }
 
 .box h3 {
     font-weight: 700;
 }
 
-.box-social{
+.box-accessibility {
+    margin-top: 30px;
+}
+
+.box-social {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 10px;
 }
 
-.box-aboutus{
+.box-aboutus {
     margin-top: 10px;
 }
 
-.box-contactus{
+.box-contactus {
     margin-top: 10px;
 }
 
-.box-europeanatlas{
+.box-europeanatlas {
     margin-top: 10px;
 }
 
-.box-thematiclots{
+.box-thematiclots {
     margin-top: 10px;
 }
