@@ -1,5 +1,5 @@
 *{
-    border: solid red 1px;
+    /* border: solid red 1px; */
     box-sizing: border-box;
 }
 
@@ -11,7 +11,7 @@ html, body{
 
 .main-div{
     height: 800px;
-    background-color: blue;
+    background-color: #004494;
     display: flex;
     justify-content: center;
 }
@@ -21,18 +21,59 @@ html, body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 10px;
+}
+
+.second-child{
+    flex-grow: 2.5;
+    display: flex;
+   
+}
+
+.second-box {
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* (linee divisorie) */
 .divider{
-    height: 3px;
+    height: 1px;
     background-color: white;
 }
 
-.second-child{
-    flex-grow: 1;
+
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
-.second-child-fat{
-    flex-grow: 2.5;
+.box{
+margin: 0 10px;
+}
+
+.box h3 {
+    font-weight: 700;
+}
+
+.box-social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.box-aboutus{
+    margin-top: 10px;
+}
+
+.box-contactus{
+    margin-top: 10px;
+}
+
+.box-europeanatlas{
+    margin-top: 10px;
+}
+
+.box-thematiclots{
+    margin-top: 10px;
 }
